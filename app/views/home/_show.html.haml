@@ -1,0 +1,46 @@
+.container#page
+
+    %header#header
+        %a.btn#login-link{:href => "login"} Log In
+        %h1 batcave
+
+    #banner.row
+        %h1 Facebook...<a href="https://www.youtube.com/watch?v=HBsdV--kLoQ">can it be trusted</a>
+        %h3 Join batcave, a small Diaspora pod.
+
+    %a.btn.btn-primary#signup-link{:href => "users/sign_up"} Create a free account
+
+    #steps.row
+        .span3
+        .span10
+            %h2 FAQ
+            %p <b>What is this?</b>
+            %p
+                This is batcave, a Diaspora pod. Diaspora is a free, open-source, and distributed social network composed of many networked "pods". A pod is a server running the Diaspora software and connected to the Diaspora network.
+            %br
+            %p <b>Why is this better than Facebook?</b>
+            %p
+                For several compelling reasons, see <a href="https://diasporafoundation.org/about">Diaspora's about page</a>.
+            %br
+            %p <b>Where is batcave hosted?</b>
+            %p On Heroku, with user photos being stored on Amazon S3.
+            %br
+            %p <b>Who runs batcave?</p>
+            %p
+                <a href="http://kevintechnology.com">Kevin Conley</a> and <a href="http://vsampath.com/">Varun Sampath</a>.
+            %br
+            %p <b>This is being served on http! You're bad and you should feel bad!</b>
+            %p
+                That's not really a question, but you're right, batcave is temporarily http only as we test the waters to see how many people will sign up for batcave. Depending on interest, we may move to https to improve the security of batcave. In the mean time, we recommend that you do not re-use an existing password for a new batcave account and do not post any sensitive information.
+        .span3
+
+    %footer
+        %h3 Links
+        %ul#links
+            %ul.section
+                %li
+                    %a{:href => "https://github.com/kevincon/diaspora"} batcave source code
+                %li
+                    %a{:href => "https://diasporafoundation.org/"} Diaspora Foundation
+
+    #change-page batcave is not affiliated with DC Comics.
